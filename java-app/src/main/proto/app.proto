@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "com.example.grpc";
+option java_outer_classname = "CalculatorProto";
+
+package calculator;
+
+// The calculator service definition.
+service Calculator {
+  // Sends two numbers to be added.
+  rpc Add (AddRequest) returns (AddReply) {}
+}
+
+// The request message containing two numbers.
+message AddRequest {
+  int32 number1 = 1;
+  int32 number2 = 2;
+}
+
+// The response message containing the sum.
+message AddReply {
+  int32 result = 1;
+}
