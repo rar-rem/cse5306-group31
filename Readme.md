@@ -5,18 +5,18 @@
 #### Before trying to run the app on cmd, make sure the current directory is grpc-calculator.
 ### For Linux:
 #### Go to grpc-calculator directory:
-	$ cd <path/to/>grpc-calculator 
+	 cd <path/to/>grpc-calculator 
 #### Run the Java Server:
-	$ ./mvnw exec:java -Dexec.mainClass="com.example.grpc.CalculatorServer" # on linux 
+	 ./mvnw exec:java -Dexec.mainClass="com.example.grpc.CalculatorServer" # on linux 
 #### Run the Java Client:
-	$ ./mvnw exec:java -Dexec.mainClass="com.example.grpc.CalculatorClient" 
+	 ./mvnw exec:java -Dexec.mainClass="com.example.grpc.CalculatorClient" 
 ### For Windows:
 #### Go to grpc-calculator directory:
-	> cd <path/to/>grpc-calculator
+	 cd <path/to/>grpc-calculator
 #### Run the Java Server:
-	> mvnw.cmd exec:java -Dexec.mainClass="com.example.grpc.CalculatorServer" # on windows 
+	 mvnw.cmd exec:java -Dexec.mainClass="com.example.grpc.CalculatorServer" # on windows 
 #### Run the Java Client:-
-	> mvnw.cmd exec:java -Dexec.mainClass="com.example.grpc.CalculatorClient"
+	 mvnw.cmd exec:java -Dexec.mainClass="com.example.grpc.CalculatorClient"
 
 References:-
 https://github.com/yrreddy0123/yrrhelp
@@ -26,11 +26,11 @@ https://github.com/yrreddy0123/yrrhelp
 
 #### Now run the following commands:-
 ##### _This will install gRPC, gRPC tools and protobuf for python as listed in requirements.txt._
-	$ pip install -r requirements.txt  
+	 pip install -r requirements.txt  
 #### Run the Python Server :
-	$ python calculator-server.py
+	 python calculator-server.py
 #### Run the Python Client:-
-	$ python calculator-client.py
+	 python calculator-client.py
 ###
 
 ```bash
