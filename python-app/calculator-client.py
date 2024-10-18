@@ -11,6 +11,7 @@ def run():
         num1 = int(input())
         print("Enter another number: ")
         num2 = int(input())
+
         response = stub.Add(app_pb2.AddRequest(number1=num1, number2=num2))
         print("Python client received: " + str(response.result))
 
